@@ -1,0 +1,3 @@
+green secondary color: 436436
+background main color: 011627
+accent color: 640D14    
