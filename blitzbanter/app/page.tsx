@@ -11,9 +11,9 @@ export default function Home() {
   <main className={styles.main}>
     <title>BlitzBanter - Home </title>
     <div className={styles.stickybar}>
-      <button className={styles.login}>
-      Log In
-      </button>
+      <Link href="./play" className={styles.login}>
+        Play(random Q)
+      </Link>
       
       <Link href="./signup" className={styles.signup}>
         Sign Up
@@ -32,7 +32,7 @@ export default function Home() {
     <Image src={pic} alt="My Image" className={styles.pic}/>    
   
     <p className={styles.paragraph}>
-    BlitzBanter is more than just online chess—it’s where strategy meets conversation. Play fast-paced games with live video and voice chat, bringing the intensity of over-the-board play to the digital world. Outsmart your opponents, outtalk them, and make every match an experience worth remembering.
+    BlitzBanter is more than just online chess—its where strategy meets conversation. Play fast-paced games with live video and voice chat, bringing the intensity of over-the-board play to the digital world. Outsmart your opponents, outtalk them, and make every match an experience worth remembering.
     </p>
     <div style={{marginTop: "500px"}}>0</div>
   </main>
